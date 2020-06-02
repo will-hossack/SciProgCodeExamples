@@ -1,0 +1,6 @@
+#
+#         Location of atoms in water
+#
+Oxygen , 1.4 , 0.0, 0.0, 0.0
+Hydrogen , 1.1 , -0.751155 , -0.581606 , 0.0
+Hydrogen , 1.1 , 0.751155 , -0.581606  , 0.0

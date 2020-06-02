@@ -1,0 +1,15 @@
+This folder contains a series of simple starter Python programs, these being:
+
+
+Hello.py                        # Minimal Hello World program with single print
+
+ReadingandPrintingStrings.py   # Read a string by input() and print it.
+
+ReadingandPrintingFloats.py    # Read a single float and print it out as a string.
+
+RaddingandFormatFloats.py      # Read float, form *10^6 and ^2, and print out.
+
+ReadingIntandFloats.py         # Read in int and float, some arithmetic and print.
+
+(final one conatins int // division)
+
