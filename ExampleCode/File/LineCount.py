@@ -15,11 +15,11 @@ def main():
     #        This has a more compplex stucture to trap errors
 
     while True:                # Go into infinite loop
-        try:                   # try: test for errors
+        try:                   # try: which traps errors for errors
             file = str(input("Filename : "))   # Prompt for name
             filein = open(file, "r")           # Open file
             break                              # If here, success, so break out of loop
-        except:                                # Catch the error, so failed to open file
+        except FileNotFoundError :             # Catch the specific error, so failed to open file
             print("Failed to open file : {0:s}".format(file)) # Print error message then back to loop
 
     #         Read in the data to a list of strings.
